@@ -1,0 +1,132 @@
+* {
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'oswald';
+  background: #fff;
+  color: #436DDA;  
+}
+
+.container {   
+  height:100%;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  grid-template-rows: 500px;
+  grid-gap: 8px;
+  justify-content: center;
+  padding: 30px 0 50px; 
+  background-color: #fff;
+}
+
+.container h2{
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.container > div{
+   align-items: center;
+   padding:15px 0;
+   background-color:#fff;
+}
+
+.container > div > img{
+   width: 70%;
+   height: 50%;
+   margin: 0 auto;
+   display: grid;
+   justify-content: center;
+}
+
+.container p{
+  font-size: 19px;
+  color: #333;    
+  text-align: center;
+  margin: 20px auto 20px ;
+  width: 85%;
+  height: 55px; 
+} 
+
+.container a{
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #426CD7;
+  background: #426CD7;
+  margin: 10px auto 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  width: 60%;
+}
+
+/* .container a:hover{
+  background: #fff;
+  color: #426CD7;
+}  */
+
+.panel{
+  width:100%;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  grid-template-rows: 500px;
+  margin: 0 auto;
+  justify-content: center;  
+}
+
+.ps1{
+  background-color: #3F4F55;
+  height: 300px;
+}
+
+.ps2{
+  background-color: #fff;
+  height: 500px;
+}
+
+.fundoPaginaPD{
+  background-image: url('images/fundoPagina.jpg');
+  background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .product-list article{
+      max-width: 100%;
+  } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .product-list article{
+      max-width: 100%;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .product-list article{
+      max-width: 100%;
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ /* .product-list article{
+      max-width: 100%;
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .product-list article{
+      max-width: 100%;
+  } */
+}
